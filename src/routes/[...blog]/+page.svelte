@@ -17,7 +17,7 @@ $: fulltitle = `บทความที่ ${doc.metadata.order} เรื่�
 	<h1 aria-labelledby="article-fulltitle" class="not-sr-only">{doc.metadata.title}</h1>
 	{#if Array.isArray(doc.metadata.tags) && doc.metadata.tags.length > 0}
 		<p class="sr-only">หมวดหมู่บทความ {doc.metadata.tags[0]}</p>
-		<div aria-hidden="true" class="not-sr-only" data-nrm="tags" class="-mt-2">
+		<div aria-hidden="true" class="not-sr-only" data-nrm="tags" class="mt-2">
 			{#each doc.metadata.tags as tag}
 				<span
 					class="border-current border px-2 py-0.5 text-sm text-primary-500 rounded-md"
