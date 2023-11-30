@@ -17,8 +17,7 @@ const config = {
 		}),
 		prerender: {
 			entries: ['/']
-		}
-		
+		},
 	}
 };
 

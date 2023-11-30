@@ -1,7 +1,8 @@
-import { A, D, pipe } from '@mobily/ts-belt';
+import { pipe } from '@mobily/ts-belt/pipe';
+import * as A from '@mobily/ts-belt/Array';
+import * as D from '@mobily/ts-belt/Dict';
 import {
 	object,
-	parse,
 	string,
 	number,
 	nullable,
