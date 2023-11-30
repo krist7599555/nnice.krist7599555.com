@@ -33,7 +33,7 @@ export const DOCS = pipe(
 	D.toPairs,
 	A.map(([filepath, { default: component, metadata: m }]) => {
 		const f = filepath.match(/docs\/(\d+)-(.+)\.md$/);
-		const href = `/${m.slug || f?.[2] || ''}`;
+		const href = m.href || `/${m.slug || f?.[2] || ''}`;
 		const p = safeParse(metadata_schema, {
 			title: m.title || 'untitle',
 			titlePrev: m.titlePrev || m.title || 'untitle',
