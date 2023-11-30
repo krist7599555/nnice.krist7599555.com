@@ -32,7 +32,7 @@ export default defineConfig({
 				},
 			})),
 			inject_script: (source) => {
-				return `\nimport Chat from "$lib/Chat.svelte";\n` + source;
+				return `\nimport Chat from "$lib/chat.svelte";\n` + source;
 			},
 			inject_frontmatter: (frontmatter, option) => {
 				return {
