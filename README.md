@@ -1,38 +1,21 @@
-# create-svelte
+# ถอดความหนังสือ อ.น้องไนซ์
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<https://nnice.krist7599555.com>
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+พุทธ คือ พุทธะ คำสอนขององค์พระศากยมุนี คงอยู่มิเปลี่ยนแปลง
+บัญหาเกิดจากผู้ยึดในตัวบุคคลมากกว่าคำสอนของพุทธองค์ เมื่อถึงยุคนี้
+ยุคที่ปัจจัยทางโลกส่งผลมากกว่าปัจจัยทางธรรม คือ บททดสอบและคัดกรอง
+ผู้ปฏิบัติธรรมครั้งสำคัญ ในขณะที่บททดสอบทำหน้าที่ผู้ที่มีจุดมุ่งมั่นเจริญ
+ตามแนวทางของท่าน ก็จะได้เจอธรรมะและแนวทางที่ถูกต้อง โดยส่งผ่านผู้ที่
+ถูกเลือก เพื่อนำพาคนกลุ่มนี้ไปยัง ยุคพระศรีอาริย์ นับจากนี้จะเกิดเส้นขนาน
+ที่ชัดเจน สำหรับผู้ที่มีกุศลจิตและจิตอกุศล
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+คำสอน แห่งองค์พุทธะ ใบโพธิ์ เสมือนคำสอนแห่งองค์พุทธะ ซึ่ง
+ตรงนี้คือ หน้าที่ของเราโดยตรง เป็นสัญลักษณ์ที่จะนำพาให้จิตตื่นรู้ เพื่อให้
+จิตที่ติดตามเรา ได้ตื่นรู้ ด้วยหลักคำสอนแห่งองค์พุทธะ และนั่นคือ สิ่งที่เรา
+ได้รับหน้าที่มา ณ. กาลเวลานี้...
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+นิรมิตเทวาจุติ
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+![nice](./static/sample-1.jpg)
