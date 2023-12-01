@@ -24,10 +24,12 @@ afterNavigate(() => {
 </div>
 <div class="lg:grid grid-cols-[auto,1fr] relative">
 	{#if showNav}
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
     <div
       class="not-sr-only fixed lg:hidden inset-0 bg-stone-800/60 h-screen"
       transition:fade={{ duration: 200 }}
       on:click|self={() => (showNav = false)}
+			on:keypress={() => {}}
     ></div>
   {/if}
 	<nav

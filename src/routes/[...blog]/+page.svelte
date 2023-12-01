@@ -11,7 +11,7 @@ $: fulltitle = `บทความที่ ${doc.metadata.order} เรื่�
 	description="เนื้อหาคำสอนของ อาจารย์น้องไนซ์ {fulltitle}"
 />
 
-<article aria-label="{fulltitle}" title={fulltitle} class="prose mx-auto py-12">
+<article aria-label="{fulltitle}" title={fulltitle} class="prose mx-auto py-12 px-4">
 	<div aria-hidden="true" class="not-sr-only">บทที่ {doc.metadata.order}</div>
 	<div id="article-fulltitle" class="sr-only">{fulltitle}</div>
 	<h1 aria-labelledby="article-fulltitle" class="not-sr-only">{doc.metadata.title}</h1>
