@@ -3,7 +3,7 @@ import { cn } from '$lib/cn';
 import { DOCS } from '$lib/docs';
 import { fade } from 'svelte/transition';
 import { ViewVertical } from 'radix-icons-svelte';
-import { afterNavigate, onNavigate } from '$app/navigation';
+import { afterNavigate } from '$app/navigation';
 
 export let data;
 let showNav = false;

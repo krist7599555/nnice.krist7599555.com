@@ -2,8 +2,8 @@ export const prerender = true;
 export const csr = true;
 export const ssr = true;
 
-export const load = async ({ url }) => {
+export const load = async () => {
 	return {
-		pathname: url.pathname
+
 	};
 };
