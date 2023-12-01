@@ -32,6 +32,7 @@ afterNavigate(() => {
     ></div>
   {/if}
 	<nav
+		tabindex="-1"
 		aria-label="สารบัญ"
 		title="สารบัญ"
 		data-nav-show={showNav}
@@ -58,7 +59,7 @@ afterNavigate(() => {
 			</a>
 		{/each}
 	</nav>
-	<main title="เนื้อหาหลัก">
+	<main title="เนื้อหาหลัก" tabindex="-1">
 		<slot />
 	</main>
 </div>
